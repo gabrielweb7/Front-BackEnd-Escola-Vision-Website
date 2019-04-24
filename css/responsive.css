@@ -1,0 +1,141 @@
+/****************************************** 
+	
+		Desenvolvido por Gabriel da Luz 
+		
+		http://gabrieldaluz.com.br/
+	
+*******************************************/
+
+/* Ajuste do container do Bootstrap */
+@media (min-width: 1200px) { /*.container { max-width: 1200px; }*/ }
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1440px) {
+
+	section.slider .owl-carousel .owl-item img { height:700px; }
+
+}
+@media only screen and (max-width: 1280px) {
+	
+	header .topo .logo img { height: 90px; }
+	header .topo nav.menu { margin-top: 33px; }
+	section.slider .owl-carousel .owl-item div.superLabel span.titulo,
+	section.slider .owl-carousel .owl-item div.superLabel span.subtitulo { font-size:42px; }
+
+		section.slider .owl-carousel .owl-item img { height:650px; }
+
+}
+
+@media only screen and (max-width: 1199px) {
+	
+	header .topo nav.menu > ul > li > a { font-size:18px; }
+	header .topo nav.menu > ul { display: inline-block; }
+	header .topo nav.menu {     text-align: right; width: 100%; }
+		header .topo nav.menu { margin-top: 32px; }
+	section.cursos .cursosCarousel .boxCurso .imagem img { height: 176px; }
+	section.cursos .cursosCarousel .boxCurso .titulo { font-size: 16px; }
+	section.cursos .cursosCarousel .boxCurso .valor { font-size: 23px; }
+	.btnStyle1 { font-size:20px; }
+	section.nossaEquipe .membro .social a.facebook i { font-size:24px; }
+	section.nossaEquipe .membro .social a.instagram i { font-size:24px; }
+	section.nossaEquipe .membro .social a.twitter i { font-size:24px; }
+	section.nossaEquipe .membro .cargo { margin-top:2px; }
+	section.contato .topbar .labelContainer span.titulo { font-size:14px; }
+	section.contato .topbar .labelContainer span.subtitulo { font-size:13px; }
+	footer .copyright { font-size:13px;  }
+	section.slider .owl-carousel .owl-item div.superLabel span.titulo,
+	section.slider .owl-carousel .owl-item div.superLabel span.subtitulo { font-size:33px; }
+
+		section.slider .owl-carousel .owl-item img { height:600px; }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+	
+	header .topo nav.menu {     margin-top: 27px; }
+	header .topo .logo img { height: 80px; }
+	header .topo nav.menu > ul > li {     margin-right: 23px; }
+	header .topo nav.menu > ul > li > a { font-size: 16px; }
+	section div.secHeader .sectitle {     font-size: 28px; }
+	section div.secHeader .secSubTitle {     font-size: 15px; }
+	section.cursos .cursosCarousel .boxCurso .titulo{ font-size:19px; }
+	section.nossaEquipe .membro { margin-bottom:50px; }
+	.equipeContainer .row { width:100%; display: table; text-align: center; }
+	.equipeContainer .row .col-md-6 { display: inline-block; }
+	section.nossaEquipe { padding-bottom:10px; }
+	section.contato .topbar .col-lg-4{ text-align:left; }
+	section.contato .topbar i { padding: 16px 0px;width: 100%;margin-right: 0px;    height: initial;     border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+	section.contato .topbar .labelContainer {    transform: translateY(0%); text-align: center; width: 100%; padding-top: 18px; padding-bottom: 18px; }
+	section.contato form .row .col-lg-6:nth-child(1){ padding-right:15px; }
+	section.contato form .row .col-lg-6:nth-child(2){ padding-left:15px; }
+	section.slider .owl-carousel .owl-item div.superLabel { text-align:center; }
+	section.slider .owl-carousel .owl-item div.superLabel span.titulo,
+	section.slider .owl-carousel .owl-item div.superLabel span.subtitulo { font-size:28px;     display: inline-block;}
+	section.contato form { margin-top:50px; }
+
+	section.slider .owl-carousel .owl-item img { height:580px; }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	header .topo .logo { text-align:center;  }
+	header .topo .logo img {     height: 55px; }
+	header .topo nav.menu{  margin-top:15px; text-align:center; margin-bottom:13px; }
+	header .topo nav.menu > ul > li > a{     font-size: 13px; }
+	header .topo nav.menu > ul > li{ margin-right: 10px; }
+	section.slider .owl-carousel .owl-item div.superLabel span.titulo, section.slider .owl-carousel .owl-item div.superLabel span.subtitulo{     font-size: 22px; }
+	section.cursos .cursosCarousel .boxCurso .titulo{ font-size:21px; margin-top:10px; margin-bottom:6px;}
+	section.cursos .cursosCarousel .boxCurso .horas { margin-bottom:5px; }
+	section.contato .topbar .labelContainer{     padding-bottom: 40px; }
+	section.cursos .cursosCarousel .boxCurso .imagem img { height: 250px; }
+	header .topo nav.menu > ul > li.active > a:after { bottom: -3px; }
+
+	section.quemSomos{     padding-top: 40px; padding-bottom: 40px; }
+	section.nossaMissao{     padding-top: 40px; padding-bottom: 40px; }
+	section.cursos{     padding-top: 40px; padding-bottom: 40px; }
+	section.nossaEquipe{     padding-top: 40px; padding-bottom: 0px; }
+	section.contato{    padding-bottom: 30px; }
+
+	section.slider .owl-carousel .owl-item img { height:500px; }
+}
+
+@media only screen and (max-width: 650px) {
+		section.slider .owl-carousel .owl-item img { height:480px; }
+}
+@media only screen and (max-width: 575px) {
+	
+	.menu-mobile { display:block; padding-right:10px;}
+	.menu-mobile i {   cursor:pointer; }
+	.menu-mobile span {   cursor:pointer; }
+	.menu-mobile i:hover {   background:rgba(240, 240, 240, 0.27); }
+	header .topo nav.menu { display:none; }
+	header .topo nav.menu > ul {        width: 95%; }
+	header .topo nav.menu > ul li {     width: 100%; }
+	header .topo nav.menu > ul > li > a { font-size: 13px; padding: 11px; display: block; margin-bottom: 9px; }
+	header .first { position:relative; }
+	header .first .logo { float:left; }
+	header .first .menu-mobile { float:right; margin-top:11px; }
+	.equipeContainer .row { width:auto; }
+
+		section.slider .owl-carousel .owl-item img { height:400px; }
+
+
+}
+
+@media only screen and (max-width: 425px) { 
+
+	section div.secHeader .sectitle { font-size: 26px; margin-bottom: 9px; }
+	section div.secHeader .secSubTitle {     font-size: 12px;  }
+
+	section.slider .owl-carousel .owl-item div.superLabel span.titulo, section.slider .owl-carousel .owl-item div.superLabel span.subtitulo {     font-size: 16px; }
+
+	section div.secContent p {  text-align: justify;     font-size: 15px;
+    line-height: 150%;}
+
+    	section.slider .owl-carousel .owl-item img { height:450px; }
+
+}
