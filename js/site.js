@@ -76,8 +76,8 @@ $(function() {
 	if($("section.cursos .owl-carousel").length) { 
 		$("section.cursos .owl-carousel").owlCarousel({
 			items: 3,
-			loop:false,
-			autoplay:false,
+			loop:true,
+			autoplay:true,
 			margin: 50,
 			nav: false,
 			navText: ['<img src="img/icons/arrow-left-slide2.png" />', '<img src="img/icons/arrow-right-slide2.png" />'],

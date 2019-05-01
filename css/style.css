@@ -155,8 +155,11 @@ section.quemSomos { padding-top:60px; padding-bottom:60px;  border-bottom:5px so
 
 
 /* Section .nossaMissao */
-section.nossaMissao { padding-top:60px; padding-bottom:60px;  }
-
+section.nossaMissao { padding-top:60px; padding-bottom:30px;  }
+section.nossaMissao .secContent { padding-top: 25px; }
+section.nossaMissao .secContent .icon {    text-align: center;font-size: 45px;color: #136baf; }
+section.nossaMissao .secContent .titulo {  text-align: center; font-weight: bold;     margin-top: 15px;margin-bottom: 1px;      font-size: 19px; }
+section.nossaMissao .secContent .subtitulo { text-align: center; color: #6f6f6f; font-size:16px; margin-bottom:65px;  }
 
 
 
@@ -168,11 +171,13 @@ section.cursos .cursosCarousel .boxCurso {     padding: 15px; border-radius: 7px
 section.cursos .cursosCarousel .boxCurso:hover {    background: #212e3a;  }
 section.cursos .cursosCarousel .boxCurso:hover .imagem img { transform:scale(1.1); }
 section.cursos .cursosCarousel .boxCurso:hover a.btnStyle1 { background:#046ec3; }
-section.cursos .cursosCarousel .boxCurso .imagem { overflow:hidden; border:1px solid #5d5d5d;}
+section.cursos .cursosCarousel .boxCurso .imagem { overflow:hidden; border:1px solid #5d5d5d; position:relative; }
+section.cursos .cursosCarousel .boxCurso .imagem .over {     position: absolute;bottom: 0px;left: 0px;width: 100%;text-align: center;padding: 5px;color: white;background: rgba(1, 56, 94, 0.6);text-shadow: 0px 2px 2px black; }
 section.cursos .cursosCarousel .boxCurso .imagem img { width:100%; height:235px; object-fit: cover;  -webkit-transition: all 500ms ease-out; -moz-transition: all 500ms ease-out; -o-transition: all 500ms ease-out; transition: all 500ms ease-out; }
 section.cursos .cursosCarousel .boxCurso .titulo { text-align: center; font-size: 21px; padding: 6px 10px; padding-bottom:0px; font-weight: 500;  }
 section.cursos .cursosCarousel .boxCurso .horas { text-align: center;     font-size: 16px; font-weight: 400; }
 section.cursos .cursosCarousel .boxCurso .valor {     text-align: center; font-size: 28px; font-weight: 500; padding: 6px 0px;}
+section.cursos .cursosCarousel .boxCurso .parcelamento {       text-align: center; }
 section.cursos .cursosCarousel .boxCurso a.btnStyle1 { margin-top:6px; }
 
 
@@ -183,11 +188,11 @@ section.nossaEquipe { padding-top:60px; padding-bottom:30px;  }
 
 section.nossaEquipe .equipeContainer {     margin-top: 60px;      margin-bottom: 20px; }
 section.nossaEquipe .equipeContainer .row { display: table; text-align:center; }
-section.nossaEquipe .equipeContainer .row .col-lg-4 {     display: inline-block; }
+section.nossaEquipe .equipeContainer .row .col-lg-4 {     display: inline-table; }
 
 section.nossaEquipe .membro { width:85%; margin:0 auto; max-width:250px;     margin-bottom: 30px; }
 section.nossaEquipe .membro .imagem {  }
-section.nossaEquipe .membro .imagem img {     width: 100%; height: 250px; object-fit: cover; border-radius: 100%; background: #dadada; padding: 1px; }
+section.nossaEquipe .membro .imagem img {  width: 75%; object-fit: cover; border-radius: 100%; background: #dadada; padding: 1px; }
 section.nossaEquipe .membro .nome {  text-align:center; margin-top:15px; font-weight: 500; font-size:20px; }
 section.nossaEquipe .membro .cargo {  text-align:center; font-size:14px; color:#0082CE;  }
 section.nossaEquipe .membro .social { text-align:center; margin-top:5px; }
